@@ -1,0 +1,91 @@
+.pwa-mat-card {
+   background: #fff;
+   border-radius: 16px;
+   box-shadow: 0 2px 12px rgba(33, 150, 243, 0.08);
+   margin-top: 32px;
+   padding: 32px 28px;
+   max-width: 720px;
+}
+.pwa-mat-title {
+   font-family: "Roboto", sans-serif;
+   font-size: 1.8em;
+   font-weight: 500;
+   letter-spacing: -1px;
+   margin-bottom: 6px;
+}
+.pwa-mat-row {
+   margin-bottom: 28px;
+}
+.pwa-mat-label {
+   font-family: "Roboto", sans-serif;
+   font-size: 1.06em;
+   color: #222;
+   display: block;
+   margin-bottom: 8px;
+}
+.pwa-mat-input,
+.pwa-mat-btn {
+   font-family: "Roboto", sans-serif;
+}
+.pwa-mat-input {
+   padding: 9px 16px;
+   border-radius: 9px;
+   border: 1px solid #d2e0ef;
+   font-size: 1.1em;
+   width: 95%;
+   margin-bottom: 8px;
+}
+.pwa-mat-btn {
+   background: #2196f3;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 8px;
+   font-size: 1em;
+   cursor: pointer;
+   transition: background 0.17s;
+}
+.pwa-mat-btn:hover {
+   background: #1976d2;
+}
+.pwa-img-preview {
+   margin-top: 6px;
+   border-radius: 10px;
+   box-shadow: 0 1px 4px rgba(33, 150, 243, 0.1);
+}
+.pwa-mat-chips {
+   display: flex;
+   gap: 10px;
+   margin-top: 4px;
+}
+.pwa-mat-chip {
+   background: #f1f8fe;
+   color: #1976d2;
+   border-radius: 4px;
+   padding: 3px 11px;
+   font-size: 0.97em;
+}
+.pwa-mat-screenshots {
+   display: flex;
+   gap: 16px;
+   flex-wrap: wrap;
+}
+.pwa-mat-screenshot-block {
+   margin-bottom: 18px;
+   position: relative;
+}
+.pwa-mat-remove-btn {
+   background: #ef5350;
+   color: #fff;
+   border: none;
+   border-radius: 50%;
+   width: 30px;
+   height: 30px;
+   position: absolute;
+   top: -9px;
+   right: -9px;
+   cursor: pointer;
+}
+.material-icons {
+   vertical-align: middle;
+}
