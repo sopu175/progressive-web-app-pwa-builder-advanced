@@ -128,3 +128,5 @@ function progwebapp_add_app_icon() {
     $icon_id = get_option('progwebapp_builder_icon_id');
     $icon = $icon_id ? esc_url(wp_get_attachment_image_url($icon_id, 'full')) : PROGWEBAPP_PLUGIN_URL . 'assets/icon-192.png';
     echo '<link rel="icon" href="' . esc_url($icon) . '" sizes="192x192">';
+}
+?>
