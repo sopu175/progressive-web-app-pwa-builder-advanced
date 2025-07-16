@@ -1,4 +1,4 @@
-.pwa-mat-card {
+.progwebapp-mat-card {
    background: #fff;
    border-radius: 16px;
    box-shadow: 0 2px 12px rgba(33, 150, 243, 0.08);
@@ -6,28 +6,28 @@
    padding: 32px 28px;
    max-width: 720px;
 }
-.pwa-mat-title {
+.progwebapp-mat-title {
    font-family: "Roboto", sans-serif;
    font-size: 1.8em;
    font-weight: 500;
    letter-spacing: -1px;
    margin-bottom: 6px;
 }
-.pwa-mat-row {
+.progwebapp-mat-row {
    margin-bottom: 28px;
 }
-.pwa-mat-label {
+.progwebapp-mat-label {
    font-family: "Roboto", sans-serif;
    font-size: 1.06em;
    color: #222;
    display: block;
    margin-bottom: 8px;
 }
-.pwa-mat-input,
-.pwa-mat-btn {
+.progwebapp-mat-input,
+.progwebapp-mat-btn {
    font-family: "Roboto", sans-serif;
 }
-.pwa-mat-input {
+.progwebapp-mat-input {
    padding: 9px 16px;
    border-radius: 9px;
    border: 1px solid #d2e0ef;
@@ -35,7 +35,7 @@
    width: 95%;
    margin-bottom: 8px;
 }
-.pwa-mat-btn {
+.progwebapp-mat-btn {
    background: #2196f3;
    color: #fff;
    border: none;
@@ -45,36 +45,36 @@
    cursor: pointer;
    transition: background 0.17s;
 }
-.pwa-mat-btn:hover {
+.progwebapp-mat-btn:hover {
    background: #1976d2;
 }
-.pwa-img-preview {
+.progwebapp-img-preview {
    margin-top: 6px;
    border-radius: 10px;
    box-shadow: 0 1px 4px rgba(33, 150, 243, 0.1);
 }
-.pwa-mat-chips {
+.progwebapp-mat-chips {
    display: flex;
    gap: 10px;
    margin-top: 4px;
 }
-.pwa-mat-chip {
+.progwebapp-mat-chip {
    background: #f1f8fe;
    color: #1976d2;
    border-radius: 4px;
    padding: 3px 11px;
    font-size: 0.97em;
 }
-.pwa-mat-screenshots {
+.progwebapp-mat-screenshots {
    display: flex;
    gap: 16px;
    flex-wrap: wrap;
 }
-.pwa-mat-screenshot-block {
+.progwebapp-mat-screenshot-block {
    margin-bottom: 18px;
    position: relative;
 }
-.pwa-mat-remove-btn {
+.progwebapp-mat-remove-btn {
    background: #ef5350;
    color: #fff;
    border: none;

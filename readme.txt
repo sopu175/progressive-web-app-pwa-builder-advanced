@@ -1,5 +1,5 @@
 === Progressive Web App (PWA) Builder Advanced ===
-Contributors: saif2456
+Contributors: saif24565
 Tags: pwa, progressive web app, manifest, offline, service worker
 Requires at least: 5.0
 Tested up to: 6.8
@@ -24,6 +24,27 @@ PWA Builder Advanced lets you easily add a PWA manifest, icons, splash images, s
 * All images managed via WP Media Library
 * Service worker endpoint for offline support
 * Ready for push notifications and advanced PWA features
+
+== External services ==
+
+This plugin uses Google's Workbox library to provide service worker functionality for offline support and caching.
+
+**What the service is and what it is used for:**
+Google Workbox CDN is used to load the Workbox service worker library, which provides PWA functionality including offline caching and background sync capabilities.
+
+**What data is sent and when:**
+The plugin loads the Workbox library from Google's CDN (https://storage.googleapis.com/workbox-cdn/releases/6.5.4/workbox-sw.js) when the service worker is registered. No personal user data is sent to Google - only standard HTTP request headers are transmitted when fetching the library.
+
+**Service provider information:**
+- Service: Google Workbox CDN
+- Terms of Service: https://developers.google.com/terms
+- Privacy Policy: https://policies.google.com/privacy
+
+The plugin also uses Google Fonts to load Material Icons and Roboto font in the admin interface:
+- Material Icons: https://fonts.googleapis.com/icon?family=Material+Icons&display=swap
+- Roboto Font: https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap
+- Google Fonts Terms: https://developers.google.com/fonts/terms
+- Google Fonts Privacy: https://developers.google.com/fonts/faq#what_does_using_the_google_fonts_api_mean_for_the_privacy_of_my_users
 
 == Installation ==
 
