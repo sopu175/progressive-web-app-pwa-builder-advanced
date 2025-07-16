@@ -213,10 +213,10 @@ function progwebapp_register_settings() {
 }
 
 function progwebapp_sanitize_screenshot_ids($value) {
-        if (is_array($value)) {
-            return array_map('absint', $value);
-        }
-        return [];
+    if (is_array($value)) {
+        return array_map('absint', $value);
+    }
+    return [];
 }
 
 add_action('admin_enqueue_scripts', 'progwebapp_enqueue_admin_scripts');
